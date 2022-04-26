@@ -50,3 +50,18 @@ text-shadow: 3px 2px 1px #025824;
 
 
 
+@media screen and (min-width: 1600px){
+  body{
+    background-color:var(--main-background-color);
+    background: url("img/TOP_HUD.webp"), url("img/START_HUD.webp"), url("img/BACK_OPTI2.gif");
+    background-repeat: no-repeat, repeat-x, no-repeat;
+    background-position: top center, bottom center, center center;
+    background-attachment: fixed, fixed, fixed;
+    background-size: 100% auto, 100% auto, auto 120%;
+   
+    /* font-family: 'Caja', 'Lilian', 'BBBOcelot'; */
+    font-family: 'BBBOcelot';
+    font-size: 1.8em;
+  }
+
+}
