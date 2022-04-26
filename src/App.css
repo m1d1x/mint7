@@ -34,8 +34,9 @@ body{
   background-attachment: fixed, fixed, fixed;
   background-size: 100% auto, 100% auto, auto 120%;
  
-  font-family: 'Caja', 'Lilian', 'BBBOcelot';
-  font-size: 2.1em;
+  /* font-family: 'Caja', 'Lilian', 'BBBOcelot'; */
+  font-family: 'BBBOcelot';
+  font-size: 1.2em;
 }
 
 h2, p{

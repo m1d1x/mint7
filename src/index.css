@@ -1,6 +1,7 @@
 body {
   margin: 0;
   font-family: 'Caja', 'Lilian', 'BBBOcelot';
+  /* font-family: 'BBBOcelot'; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #FFFFFF;
@@ -8,4 +9,5 @@ body {
 
 code {
   font-family: 'Caja', 'Lilian', 'BBBOcelot';
+  /* font-family: 'BBBOcelot'; */
 }

@@ -34,6 +34,7 @@ const WalletContainer = styled.div`
   align-items: center;
   justify-content: center;
   // background-color: red;
+  
 `;
 
 // WALLET AMOUT
@@ -55,6 +56,7 @@ const WalletAmount = styled.div`
   position: relative;
   align-items: center;
   justify-content: space-around;
+  
   // gap: 5px;
 `;
 
@@ -89,6 +91,7 @@ const ConnectButton = styled(WalletMultiButton)`
   font-size: 65%;
   box-shadow: 1px 1px 5px 1px rgba(0,0,0,0.5);
   
+  
 `;
 
 // const Des = styled(NFT)`
@@ -101,17 +104,18 @@ const Card = styled(Paper)`
   display: flex;
   
 //   background-color: var(card-background-lighter-color) !important;
-  margin: 5px;
+  margin: 0px;
   min-width: 40px;
-  padding: 24px;
+  padding: 0px;
   h1{
-    margin:0px;
+    margin: 0px;
   }
 `;
 
 
 
 const MintButtonContainer = styled.div`
+
 
 button.MuiButton-contained:not(.MuiButton-containedPrimary).Mui-disabled {
     color: black;
@@ -148,6 +152,7 @@ const Menu = styled.ul`
   display: flex;
   align-items: center;
   flex: 1 0 auto;
+  
 
   li {
     margin: 0 0px;
@@ -178,6 +183,7 @@ const Menu = styled.ul`
 
 const SolExplorerLink = styled.a`
   color: var(--title-text-color);
+  
   border-bottom: 1px solid var(--title-text-color);
   font-weight: bold;
   list-style-image: none;
@@ -214,13 +220,15 @@ const MintContainer = styled.div`
   height: 70%;
   align-items: center;
   // background-color: red;
+  
 `;
 
 const DesContainer = styled.div`
   display: flex;
   flex-direction: column;
   width: 80%;
-  // background-color: red;
+  
+  
 
   // flex: 1 1 auto;
   
@@ -230,8 +238,9 @@ const Price = styled(Chip)`
   position: fixed;
   margin: 15px;
   font-weight: bold;
-  font-size: 40% !important;
+  font-size: 80% !important;
   font-family: 'BBBOcelot';
+  
   
 `;
 
@@ -243,10 +252,11 @@ const Image = styled.img`
   background-color: var(--nft-back-color);
   margin: 0;
   padding: 0;
+  
 `;
 
 const BorderLinearProgress = styled(LinearProgress)`
-  margin: 5px;
+  margin: 0px;
   height: 10px !important;
   border-radius: 30px;
   border: 10px solid white;
@@ -264,8 +274,8 @@ const BorderLinearProgress = styled(LinearProgress)`
 `;
 
 const ShimmerTitle = styled.h1`
-  margin-top: -30px;
-  margin-bottom: 10px;
+  margin-top: -90px;
+  margin-bottom: 0px;
   font-size: 270%;
   text-transform: uppercase;
   
@@ -283,6 +293,7 @@ const ShimmerTitle = styled.h1`
 
 const GoldTitle = styled.h2`
   color: var(--title-text-color);
+  
   
 `;
 
