@@ -42,7 +42,7 @@ const WalletAmount = styled.div`
   color: black;
   width: 370px;
   box-shadow: 5px 5px 20px 5px rgba(0,0,0,0.3);
-  padding: 7px 0px 5px 0px;
+  padding: 2px 0px 0px 0px;
   border-radius: 12px;
   background-color: #ff76ff;
   text-shadow: 1px 1px 1px #b314b3;
@@ -66,7 +66,7 @@ const Wallet = styled.ul`
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 0 auto;
+  margin: 15px auto;
   padding: 0px 0px 0px 0px;
   
   
@@ -85,7 +85,7 @@ const ConnectButton = styled(WalletMultiButton)`
   padding-top: 5px;
   background-color: #5a52dc;
   // margin-bottom: 5px;
-  margin: 5px auto;
+  margin: 15px auto;
   min-width: 100px;
   min-height: 50px;
   font-size: 65%;
@@ -274,7 +274,7 @@ const BorderLinearProgress = styled(LinearProgress)`
 `;
 
 const ShimmerTitle = styled.h1`
-  margin-top: -90px;
+  margin-top: -40px;
   margin-bottom: 0px;
   font-size: 270%;
   text-transform: uppercase;
